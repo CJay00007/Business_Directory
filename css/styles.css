@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  background-image: url(../images/spintexpic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body, html {
+  color: #414141;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.heading h1 {
+  display: block;
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 15px rgb(0 0 0 / 80%);
+  text-align: center;
+  position: relative;
+  margin-top: 190px;
+}
+
+.search {
+position: absolute; 
+left: 35%;
+right: 35%;
+  width: 26%;
+}
+
+.holder {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, .6);
+}
+
+.categories {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+div {
+  display: block;
+}
+
+.categories a {
+  align-items: center;
+  color: #fff;
+  padding-top: 20px;
+  color: #fff;
+  text-align: center;
+  transition: background-color linear .4s;
+  outline: 0;
+  border: none;
+  text-decoration: none;
+}
+
+.categories a:hover {
+  color: #fff;
+}
+
+.icategories a i {
+  display: block;
+}
+
+.fa {
+  font-size: 1.5rem;
+}
+
+.row {
+  text-align: center;
+}
+
+.col {
+  padding: 1.6406rem;
+
+}
+
+.col:hover {
+  background-color: black;
+  cursor: pointer;
+  transition: height .2s ease, opacity .3s ease;
+  height: 85%;
+  opacity: .7;
+}
+
+.middle-container {
+  padding: 0 70px;
+  background-color: red;
+}
+
+.company {
+  padding: 20px 0;
+  font-size: 12px;
+  border-top: 1px solid #111;
+  position: relative;
+  width: auto;
+  background-color: red;
+}
+
+.company h3 {
+  padding: 0 45px 0 0;
+  line-height: 22px;
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: red;
+}
+
+.company h3 a {
+  text-decoration: none;
+  color: #414141;
+  outline: 0;
+  border: none;
+}
+
+.cont .s {
+  text-decoration: none;
+}
